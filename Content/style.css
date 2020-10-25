@@ -1,0 +1,286 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+}
+
+
+body {
+
+    font-family: proxima-nova, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+	font-size: 12px;
+	color: #666;
+
+}
+
+
+
+.link{
+	color: #C12C26;
+	cursor:pointer;
+}
+
+.hidden{
+	display: block;
+}
+
+/*Header Section*/
+#header_container { 
+	z-index: 1000; 
+	background: #352D31; 
+	border-radius: 5px;
+	height:60px; 
+	margin-right: 2%;
+    margin-left: 2%;
+	position:fixed; 
+	width:95%; 
+	top:20px; 
+}
+
+#header{ 
+	
+    width: 330px;
+    height: 30px;
+    color: white;
+    position: absolute;
+    top: 15px;
+	
+}
+
+.header_circle {
+	display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 2px solid #777;
+    float: left;
+    position: absolute;
+    top: -25px;
+}
+
+#profileImage {
+	width: 100%;
+}
+
+.name{
+	display: inline-block;
+    text-align: left;
+    font-style: normal;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 25px;
+    color: white;
+    left: 100px;
+    position: absolute;
+	
+}
+
+#contact{
+	width: 120px;
+	height: 80px;
+	float: right;
+	padding-bottom:20px;
+	position: relative;
+    line-height: 1.8em;
+	top: 18px;
+	right: 15px;
+}
+/*END Header Section*/
+
+
+
+
+
+/*content wrapper*/
+#contentWrapper{
+	
+	width: 100%;
+	position: fixed;
+	top: 90px;
+	display: block;
+}
+/*end content wrapper*/
+
+
+
+/*parcel example content*/
+
+#back{
+	z-index:10000;
+}
+
+.shadow{
+	box-shadow: 5px 5px 2px #888888;
+	width: 140px;
+}
+
+.shadow:hover{
+	box-shadow: 10px 10px 20px #888888;
+	width: 140px;
+}
+
+.pvImage{
+	width: 135px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5px;
+}
+.parcelExamples{
+	width: 80%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+#parcelViewerWrapper, #filterJSWrapper{/*this section hides the scroll bar*/
+	width: 70%;
+	height: 100%;
+	top: 90px;
+	z-index: 100;
+	margin-left: auto;
+	margin-right:auto;
+	overflow: hidden;
+	
+}
+
+#scrollPV{
+	height:200px;
+  overflow:auto;
+  margin:15px -300px 15px 15px;
+  padding-right:300px;
+}
+
+.outterContainer{
+	width: 90%;
+}
+
+.innerContainer{
+	width: 100%;
+}
+
+/*End parcel example content*/
+
+
+/*navigation content*/
+#minorContent{
+	width: 20%;
+	height: 100%;
+	float: left;
+	padding: 20px;
+	
+}
+/*end navigation content*/
+
+
+/*main content layout*/
+#mainContentWrapper{
+	width: 80%;
+	height: 100%;
+	float: right;
+}
+
+#mainContent{
+	width: 800px;
+	height: 100%;
+	margin: 0 auto;
+	z-index: 100;
+	overflow: hidden;
+}
+
+.bottom_fade {
+pointer-events: none;
+	width: 100%;
+	height: 200px;
+	z-index: 200;
+	position: absolute;
+	bottom: 0px;
+	background: url("images/bottom-fade.png") bottom center repeat;
+}
+
+
+.top_fade {
+pointer-events: none;
+    width: 100%;
+    height: 200px;
+    z-index: 200;
+    position: absolute;
+    top: 0px;
+    background: url("images/top-fade.png") bottom center repeat;
+}
+
+#scroll{
+	width:815px;
+    padding-bottom: 15px;
+    overflow-y: scroll;
+}
+
+
+/*end main content layout*/
+
+/*main content*/
+.startContainer{
+	margin-top: 90px;
+}
+
+.endContainer{
+	margin-bottom: 120px;
+}
+
+.sectionStart{
+	margin-top: 60px;
+}
+
+.sectionEnd{
+	margin-bottom: 60px;
+}
+
+.shadowContainer{
+	box-shadow: 4px 4px 2px #888888;
+}
+
+.container{
+	width: 90%;
+	
+}
+
+.contentTitle{
+	display: none;
+}
+/*end main content*/
+
+/*circle styling*/
+.circleBase {
+
+    border-radius: 50%;
+    behavior: url(PIE.htc); 
+	
+}
+
+
+
+.type3 {
+    width: 80px;
+    height: 80px;
+    background: white;
+    border: 2px solid #777;
+	box-shadow: 5px 5px 2px #888888;
+}
+
+.type3:hover{
+	box-shadow: 10px 10px 20px #888888;
+}
+
+.stock-up{
+	color: green;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+.stock-down{
+	color: red;
+	font-size: 10px;
+	font-weight: bold;
+}
+
+ 
